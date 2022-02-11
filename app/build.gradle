@@ -6,6 +6,7 @@ android {
     compileSdkVersion 31
     buildToolsVersion "30.0.3"
 
+
     defaultConfig {
         applicationId "com.ashu.selectcounty"
         minSdkVersion 25
@@ -30,6 +31,7 @@ android {
 
 dependencies {
     implementation 'com.squareup.picasso:picasso:2.71828'
+    compile 'com.android.volley:volley:1.1.0'
     compile 'com.neovisionaries:nv-i18n:1.22'
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
